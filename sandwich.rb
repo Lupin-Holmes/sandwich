@@ -65,7 +65,7 @@ when 2
 when 4
   filename, machines = parse_args(ARGV)
   if filename
-    generate_uuids_file(ARGV[0], ARGV[1], filename:)
+    generate_uuids_file(ARGV[0], ARGV[1], filename)
   elsif machines
     machines.each do |machine|
       generate_uuids_file("#{ARGV[0][0..12]}-#{machine}", "#{ARGV[1][0..12]}-#{machine}", filename: "#{machine}.txt")
