@@ -2,6 +2,9 @@
 
 This is a simple Ruby script to generate [UUIDs](https://en.wikipedia.org/wiki/Universally_unique_identifier) based on a range of timestamps in order to perform a [Sandwich Attack](https://versprite.com/blog/universally-unique-identifiers/). 
 
+### Requirement
+Ruby version >= 3 
+
 ### Usage
 The script can be run from terminal with two mandatory parameters and three optional parameters:
 
